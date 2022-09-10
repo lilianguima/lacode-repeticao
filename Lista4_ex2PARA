@@ -1,0 +1,26 @@
+
+programa
+{
+	
+	funcao  inicio ()
+	{
+
+	inteiro N = 0 , contador
+	
+	para (contador= 0 ;contador< 500 ;contador++){
+				
+	se (contador % 2 != 0 ){
+		
+      se (contador % 3 == 0 ){
+	escreva ( "\n" ,contador)
+	
+       N = N + contador 
+               }
+		  }
+	}
+
+	escreva ( "\nA soma dos números impares divisiveis por 3: " , N)
+
+
+	}
+}
